@@ -1,0 +1,9 @@
+ 1. Install MySQL Server and MySQL Workbench
+                2. Open MySQL Workbench and connect to your local server
+                3. Create a new database: CREATE DATABASE library_management;
+                4. Import the library_management.sql file:
+                   - Go to Server -> Data Import
+                   - Choose "Import from Self-Contained File"
+                   - Select the library_management.sql file
+                   - Click "Start Import"
+                5. Update database credentials in libmgmt.py with your MySQL username and password)
